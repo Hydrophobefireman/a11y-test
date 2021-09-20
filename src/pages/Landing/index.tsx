@@ -75,7 +75,7 @@ export default function Landing() {
         tortor sollicitudin, tincidunt felis mollis, porttitor quam. Proin
         sagittis risus vitae enim bibendum eleifend. Phasellus mattis feugiat
         orci id faucibus. Aenean in iaculis sem.{" "}
-        <a href="/good">link to a "Good" website in terms of accessibilty</a>
+        <A href="/good">link to a "Good" website in terms of accessibilty</A>
       </Text>
     </Container>
   );
