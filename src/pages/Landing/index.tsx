@@ -132,6 +132,11 @@ function LandingV1() {
           id="info"
           onClick={onBadClick}
           class={css({
+            pseudo: {
+              ":focus": {
+                boxShadow: "var(--kit-shadow)",
+              },
+            },
             padding: ".25rem",
             borderRadius: "50%",
             background: "orange",
