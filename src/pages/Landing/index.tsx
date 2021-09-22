@@ -125,8 +125,11 @@ function LandingV1() {
         tellus tellus, consequat aliquam metus suscipit malesuada. Maecenas
         vitae enim id massa rutrum placerat. Morbi eget diam quis dolor iaculis
         blandit.{" "}
-        <A href="/bad">link to a "bad" website in terms of accessibilty</A>
+        <A href="/bad" aria-describedby="info">
+          link to a "bad" website in terms of accessibilty
+        </A>
         <button
+          id="info"
           onClick={onBadClick}
           class={css({
             padding: ".25rem",
