@@ -109,7 +109,6 @@ function LandingV0() {
 
 function LandingV1() {
   const pref = usePRM();
-  console.log(pref);
   const onBadClick = useA11yAudit();
   return (
     <Container
